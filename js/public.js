@@ -723,7 +723,7 @@ function subStrNum(num, fontSize) {
     return span;
 }
 
-// 截取url中的邀请码
+// 截取url中字符串
 function GetIc(url) {
     var ic = "";
     if (url.indexOf("brfax") > 0) {
@@ -732,7 +732,7 @@ function GetIc(url) {
     }
     return ic;
 }
-//截取url后面渠道号
+//截取url后面的字符串
 function GetQd(url) {
     var qd = "";
     if (url.indexOf("brfax") > 0) {
